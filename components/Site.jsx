@@ -378,41 +378,24 @@ export default function Site() {
 
             <Card className="bg-zinc-950">
               <div className="p-6 md:p-8">
-                <h3 className="text-2xl font-semibold">Project intake</h3>
                 <p className="mt-3 text-zinc-400">
-                  Replace this block with Microsoft Forms, Dynamics lead capture, HubSpot, or a secure custom form endpoint.
-                </p>
-                <form className="mt-6 space-y-4" action={`mailto:${email}`} method="post" encType="text/plain">
-                  {[
-                    ["Company name", "text"],
-                    ["Contact name", "text"],
-                    ["Email / phone", "text"],
-                    ["Equipment or line type", "text"]
-                  ].map(([label, type]) => (
-                    <label key={label} className="block">
-                      <span className="sr-only">{label}</span>
-                      <input
-                        className="w-full rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-white placeholder:text-zinc-500 outline-none focus:border-emerald-300/50"
-                        placeholder={`${label} *`}
-                        type={type}
-                        name={label}
-                      />
-                    </label>
-                  ))}
-                  <label className="block">
-                    <span className="sr-only">What do you need help with?</span>
-                    <textarea
-                      className="min-h-32 w-full rounded-2xl border border-white/10 bg-white/[0.04] p-4 text-white placeholder:text-zinc-500 outline-none focus:border-emerald-300/50"
-                      placeholder="What do you need help with?"
-                      name="Project details"
-                    />
-                  </label>
-                  <button className="inline-flex w-full items-center justify-center rounded-full bg-emerald-400 px-6 py-3 text-sm font-semibold text-zinc-950 transition hover:bg-emerald-300" type="submit">
-                    Submit project request
-                  </button>
-                </form>
+  Replace this block with Microsoft Forms...
+</p>
+<form className="mt-6 space-y-4" ...
+<div className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white">
+  <iframe
+    src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=4mpTjUdE60CPur4hfvlABXxCKywil7pJv2l6-0jjJaBUQ0xZNUk2RUxKSEREMlFRWVA1WlpYUVZQMC4u&embed=true"
+    width="100%"
+    height="720"
+    frameBorder="0"
+    marginWidth="0"
+    marginHeight="0"
+    style={{ border: "none" }}
+  >
+    Loading…
+  </iframe>
+</div>
                 <p className="mt-4 text-xs leading-6 text-zinc-500">
-                  This mailto form is launch-safe, but a CRM-connected form is recommended before paid traffic.
                 </p>
               </div>
             </Card>

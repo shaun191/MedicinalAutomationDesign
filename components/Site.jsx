@@ -378,15 +378,17 @@ export default function Site() {
 
             <Card className="bg-zinc-950">
               <div className="p-6 md:p-8">
+
 <div className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white">
   <iframe
-    src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=4mpTjUdE60CPur4hfvlABXxCKywil7pJv2l6-0jjJaBUQ0xZNUk2RUxKSEREMlFRWVA1WlpYUVZQMC4u&embed=true"
+    src="https://forms.office.com/Pages/ResponsePage.aspx?id=4mpTjUdE60CPur4hfvlABXxCKywil7pJv2l6-0jjJaBUQ0xZNUk2RUxKSEREMlFRWVA1WlpYUVZQMC4u&embed=true"
     width="100%"
-    height="720"
+    height="760"
     frameBorder="0"
     marginWidth="0"
     marginHeight="0"
-    style={{ border: "none" }}
+    style={{ border: "none", maxWidth: "100%" }}
+    allowFullScreen
   >
     Loading…
   </iframe>

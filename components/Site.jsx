@@ -378,10 +378,6 @@ export default function Site() {
 
             <Card className="bg-zinc-950">
               <div className="p-6 md:p-8">
-                <p className="mt-3 text-zinc-400">
-  Replace this block with Microsoft Forms...
-</p>
-<form className="mt-6 space-y-4" ...
 <div className="mt-6 overflow-hidden rounded-2xl border border-white/10 bg-white">
   <iframe
     src="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=4mpTjUdE60CPur4hfvlABXxCKywil7pJv2l6-0jjJaBUQ0xZNUk2RUxKSEREMlFRWVA1WlpYUVZQMC4u&embed=true"
